@@ -1,6 +1,7 @@
 spring:
   datasource:
-    url: jdbc:postgresql://dpg-ch7urndgk4q7lmuleiq0-a.oregon-postgres.render.com:5432/mcsstockman
+    url: jdbc:postgresql://dpg-ch7urndgk4q7lmuleiq0-a.oregon-postgres.render.com:5432/csstockman
+    #url: jdbc:postgresql://localhost:5432/csstockman
     username: ahmadou
     password: 17ndw8SvPzH1flAX3CB6NAyh4DGwOkZ3
     driver-class-name: org.postgresql.Driver
@@ -15,4 +16,4 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQLDialect
     show-sql: true
 server:
-  port: 8082
+  port: 8083

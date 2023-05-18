@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.deme.ahmadou</groupId>
-	<artifactId>mcs-stock-man</artifactId>
+	<artifactId>cs-stock-man</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>mcs-stock-man</name>
+	<name>cs-stock-man</name>
 	<description>Stock management for MCS</description>
 	<properties>
 		<java.version>11</java.version>
