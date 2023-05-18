@@ -9,7 +9,7 @@ RUN mvn clean package -Pprod -DskipTests
 # Package stage
 #
 FROM openjdk:11-jdk-slim
-COPY --from=build /target/mcs-stock-man-0.0.1-SNAPSHOT.jar mcs-stock-man.jar
+COPY --from=build /target/ms-stock-man-0.0.1-SNAPSHOT.jar cs-stock-man.jar
 # ENV PORT=8080
 EXPOSE 8080
-ENTRYPOINT ["java","-jar","mcs-stock-man.jar"]
+ENTRYPOINT ["java","-jar","cs-stock-man.jar"]
